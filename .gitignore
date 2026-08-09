@@ -1,0 +1,22 @@
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/
+
+# Python environment and generated files
+backend/.venv/
+backend/__pycache__/
+backend/**/*.pyc
+
+# Runtime data — never commit user images or local databases
+backend/uploads/
+backend/crop_doctor.db
+
+# Future ML assets and private settings
+ml/data/
+ml/models/
+backend/.env
+
+# Editor and operating-system files
+.vscode/
+.DS_Store
+Thumbs.db
