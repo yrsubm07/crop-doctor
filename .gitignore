@@ -7,13 +7,16 @@ backend/.venv/
 backend/__pycache__/
 backend/**/*.pyc
 
+# Downloaded ML model assets (downloaded automatically at runtime)
+backend/models/
+ml/data/
+ml/models/
+
 # Runtime data — never commit user images or local databases
 backend/uploads/
 backend/crop_doctor.db
 
-# Future ML assets and private settings
-ml/data/
-ml/models/
+# Private settings
 backend/.env
 
 # Editor and operating-system files
